@@ -3,7 +3,7 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap');
 $family-primary: 'Inter', sans-serif;
-// Default
 
-$dark: blue;
-$red: red;
+* {
+  font-family: $family-primary;
+}
