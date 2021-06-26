@@ -3,6 +3,7 @@
     <heroComponent />
     <aboutComponent />
     <introTextComponent />
+    <skillsComponent />
   </main>
 </template>
 
