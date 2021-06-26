@@ -1,0 +1,40 @@
+.hero {
+  height: 30vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .hero-content {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 2em;
+  }
+
+  .hero-text {
+    .hero-uptitle {
+      font-size: 1.1em;
+      color: $grey-text;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+
+    .hero-title {
+      font-weight: 700;
+      position: relative;
+      display: inline;
+    }
+
+    .hero-subtitle {
+      font-size: 1.1em;
+      margin-top: 1em;
+      font-weight: 400;
+      color: $grey-text;
+
+      span {
+        font-weight: 700;
+      }
+    }
+  }
+}

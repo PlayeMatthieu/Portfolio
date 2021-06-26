@@ -2,7 +2,7 @@
   <div id="page-container">
     <div id="content-wrap">
       <navbarComponent />
-      <nuxt class="container" />
+      <nuxt />
     </div>
     <footerComponent id="footer" />
   </div>
@@ -22,7 +22,7 @@ export default {
   min-height: 100vh;
 }
 #content-wrap {
-  padding-bottom: 5em; /* Footer height */
+  padding-bottom: 309px; /* Footer height */
 }
 #footer {
   position: absolute;

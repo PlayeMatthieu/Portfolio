@@ -1,5 +1,7 @@
 <template>
-  <section class="section"></section>
+  <div>
+    <heroComponent />
+  </div>
 </template>
 
 <script>
