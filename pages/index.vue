@@ -1,6 +1,7 @@
 <template>
   <div>
     <heroComponent />
+    <aboutComponent />
   </div>
 </template>
 
