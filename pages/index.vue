@@ -2,6 +2,7 @@
   <div>
     <heroComponent />
     <aboutComponent />
+    <introTextComponent />
   </div>
 </template>
 
