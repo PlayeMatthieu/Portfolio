@@ -1,10 +1,8 @@
 <template>
-  <div id="page-container">
-    <div id="content-wrap">
-      <navbarComponent />
-      <nuxt />
-    </div>
-    <footerComponent id="footer" />
+  <div>
+    <navbarComponent />
+    <nuxt />
+    <footerComponent />
   </div>
 </template>
 
@@ -15,18 +13,3 @@ export default {
   },
 }
 </script>
-
-<style scoped>
-#page-container {
-  position: relative;
-  min-height: 100vh;
-}
-#content-wrap {
-  padding-bottom: 309px; /* Footer height */
-}
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-</style>
