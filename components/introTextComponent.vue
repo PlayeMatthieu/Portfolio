@@ -1,10 +1,10 @@
 <template>
-  <div class="container intro">
+  <section class="container intro">
     <h3>
       By programming application, I try to remove <br />
       <span>boring and repetitive tasks</span>
     </h3>
-  </div>
+  </section>
 </template>
 
 <style scoped>
