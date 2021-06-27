@@ -1,5 +1,11 @@
 .header {
   border-bottom: 1px solid #e2e8f0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
 }
 
 .navbar {
@@ -7,6 +13,7 @@
   padding: 1em 5em;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
 }
 
 .hamburger {
@@ -59,14 +66,15 @@
     position: fixed;
     z-index: 99;
     left: -100%;
-    top: 5em;
+    top: 72px;
     flex-direction: column;
     background-color: #fff;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
+    border-bottom: 2px solid #e2e8f0;
     text-align: center;
     transition: 0.3s;
-    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 15px 27px rgba(0, 0, 0, 0.2);
   }
 
   .nav-menu.active {
