@@ -7,13 +7,18 @@
     margin: 0 auto;
     padding: 50px 50px;
     display: flex;
-    max-width: 1500px;
+    max-width: 1250px;
     width: auto;
     flex-direction: column;
     justify-content: space-between;
     background: $gradiant-blue;
     border-radius: 10px;
     position: relative;
+    transition: transform 0.4s, box-shadow 0.4s;
+
+    &:hover {
+      transform: translateY(-10px);
+    }
 
     .subtitle {
       z-index: 5;
