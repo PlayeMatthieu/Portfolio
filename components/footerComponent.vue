@@ -1,8 +1,8 @@
 <template>
   <footer class="footer">
-    <div class="content container">
+    <div class="footer-content">
       <!-- Left side -->
-      <div class="content-cta">
+      <div class="footer-content-cta">
         <h2 class="title">Interested in collaboration?</h2>
         <p class="subtitle">
           Feel free to send me an email. I’ll repond as soon as possible
@@ -16,6 +16,6 @@
         <a href="" class="title">Linkedin</a>
       </div>
     </div>
-    <p>© 2021 Playe.be</p>
+    <p>Handcrafted by Matthieu Playe © 2021</p>
   </footer>
 </template>
