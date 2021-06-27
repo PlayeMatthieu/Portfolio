@@ -6,7 +6,7 @@
       </div>
       <div class="skills-flex-inner">
         <div class="skills-deco2"></div>
-        <a href="https://html.spec.whatwg.org/">
+        <a href="https://html.spec.whatwg.org/" target="_blank">
           <div class="skills-flex-item">
             <div class="skills-item-icon">
               <i class="fab fa-html5" style="color: #ff6600"></i>
@@ -14,7 +14,7 @@
             <div class="skills-item-title">HTML5</div>
           </div>
         </a>
-        <a href="https://sass-lang.com/">
+        <a href="https://sass-lang.com/" target="_blank">
           <div class="skills-flex-item">
             <div class="skills-item-icon">
               <i class="fab fa-sass" style="color: #ff0095"></i>
@@ -22,7 +22,7 @@
             <div class="skills-item-title">Sass</div>
           </div>
         </a>
-        <a href="https://javascript.com">
+        <a href="https://javascript.com" target="_blank">
           <div class="skills-flex-item">
             <div class="skills-item-icon">
               <i class="fab fa-js-square" style="color: #ffc400"></i>
@@ -30,7 +30,7 @@
             <div class="skills-item-title">JavaScript</div>
           </div>
         </a>
-        <a href="https://git-scm.com">
+        <a href="https://git-scm.com" target="_blank">
           <div class="skills-flex-item">
             <div class="skills-item-icon">
               <i class="fab fa-git-alt" style="color: #ff1e00"></i>
@@ -38,7 +38,7 @@
             <div class="skills-item-title">Git</div>
           </div>
         </a>
-        <a href="https://figma.com">
+        <a href="https://figma.com" target="_blank">
           <div class="skills-flex-item">
             <div class="skills-item-icon">
               <i class="fab fa-figma" style="color: #292929"></i>
@@ -46,7 +46,7 @@
             <div class="skills-item-title">Figma</div>
           </div>
         </a>
-        <a href="https://dotnet.microsoft.com/apps/aspnet">
+        <a href="https://dotnet.microsoft.com/apps/aspnet" target="_blank">
           <div class="skills-flex-item">
             <div class="skills-item-icon">
               <div class="icon-asp"></div>
@@ -54,7 +54,10 @@
             <div class="skills-item-title">ASP.NET</div>
           </div>
         </a>
-        <a href="https://www.microsoft.com/nl-nl/sql-server/sql-server-2019">
+        <a
+          href="https://www.microsoft.com/nl-nl/sql-server/sql-server-2019"
+          target="_blank"
+        >
           <div class="skills-flex-item">
             <div class="skills-item-icon">
               <div class="icon-msSql"></div>
@@ -62,7 +65,7 @@
             <div class="skills-item-title">MS SQL</div>
           </div>
         </a>
-        <a href="https://vuejs.org/">
+        <a href="https://vuejs.org/" target="_blank">
           <div class="skills-flex-item">
             <div class="skills-item-icon">
               <i class="fab fa-vuejs" style="color: #41b883"></i>
@@ -70,7 +73,7 @@
             <div class="skills-item-title">VUE JS</div>
           </div>
         </a>
-        <a href="https://bulma.io/">
+        <a href="https://bulma.io/" target="_blank">
           <div class="skills-flex-item">
             <div class="skills-item-icon">
               <div class="icon-bulma"></div>
@@ -78,7 +81,7 @@
             <div class="skills-item-title">Bulma</div>
           </div>
         </a>
-        <a href="https://nuxtjs.org/">
+        <a href="https://nuxtjs.org/" target="_blank">
           <div class="skills-flex-item">
             <div class="skills-item-icon">
               <div class="icon-nuxtJs"></div>
