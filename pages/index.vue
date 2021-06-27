@@ -4,6 +4,7 @@
     <aboutComponent />
     <introTextComponent />
     <skillsComponent />
+    <projectsComponent />
   </main>
 </template>
 
