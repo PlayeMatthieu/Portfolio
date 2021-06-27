@@ -21,8 +21,13 @@ img {
   -ms-user-select: none;
 }
 
+section {
+  margin: 2em 0;
+}
+
 .container {
-  margin: 0 30px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 @media (min-width: 576px) {
@@ -30,11 +35,19 @@ img {
     max-width: 540px;
     margin: auto;
   }
+
+  section {
+    margin: 3em 0;
+  }
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
+  }
+
+  section {
+    margin: 3.5em 0;
   }
 }
 
@@ -42,9 +55,15 @@ img {
   .container {
     max-width: 960px;
   }
+  section {
+    margin: 4em 0;
+  }
 }
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+  }
+  section {
+    margin: 5em 0;
   }
 }
