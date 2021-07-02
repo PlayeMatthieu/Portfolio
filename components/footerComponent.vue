@@ -7,13 +7,20 @@
         <p class="subtitle">
           Feel free to send me an email. I’ll repond as soon as possible
         </p>
-        <a href="" class="footer-cta">Let's Talk -></a>
+        <a href="mailto:info@playe.be" class="footer-cta">Let's Talk -></a>
       </div>
       <!-- Right side -->
       <div class="content-links">
-        <a href="" class="title">Email</a>
-        <a href="" class="title">Github</a>
-        <a href="" class="title">Linkedin</a>
+        <a href="mailto:info@playe.be" class="title">Email</a>
+        <a href="https://github.com/PlayeMatthieu" target="_blank" class="title"
+          >Github</a
+        >
+        <a
+          href="https://www.linkedin.com/in/matthieu-playe-930470210/"
+          target="_blank"
+          class="title"
+          >Linkedin</a
+        >
       </div>
     </div>
     <p>Handcrafted by Matthieu Playe © 2021</p>
