@@ -10,3 +10,10 @@
   width: 6px;
   border-left: 1px solid #e6ecf8;
 }
+
+::selection {
+  background: rgba(220, 242, 253, 1) 78%; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgba(220, 242, 253, 1) 78%; /* Gecko Browsers */
+}
