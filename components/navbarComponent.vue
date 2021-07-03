@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <nav class="navbar">
-      <a href="" class="nav-logo">Playe.be</a>
+      <nuxt-link to="/" class="nav-logo">Matthieu Playe</nuxt-link>
       <ul class="nav-menu">
         <li v-for="link in links" :key="link.title" class="nav-item">
           <a :href="link.href" class="nav-link" @click="closeNavbar">{{
@@ -23,9 +23,9 @@ export default {
   data() {
     return {
       links: [
-        { title: 'Home', href: '#' },
-        { title: 'About', href: '#' },
-        { title: 'Contact', href: '#' },
+        { title: 'Home', href: '/' },
+        { title: 'About', href: '/about' },
+        { title: 'Contact', href: '/contact' },
       ],
     }
   },
