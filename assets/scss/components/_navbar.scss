@@ -1,16 +1,11 @@
 .header {
-  border-bottom: 1px solid #e2e8f0;
-  position: fixed;
-  left: 0;
-  top: 0;
   width: 100%;
+  padding: 50px 60px;
   background-color: white;
-  z-index: 100;
 }
 
 .navbar {
   display: flex;
-  padding: 1em 5em;
   justify-content: space-between;
   align-items: center;
   background-color: white;
@@ -55,10 +50,23 @@
 .nav-logo {
   font-size: 2em;
   font-weight: 600;
-  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 768px) {
+  .header {
+    border-bottom: 1px solid #e2e8f0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    // padding-top: 15px;
+    // padding-bottom: 15px;
+    // padding-left: 5px;
+    // padding-right: 15px;
+    padding: 0;
+  }
   .navbar {
     padding: 1em 2em;
   }
@@ -66,7 +74,7 @@
     position: fixed;
     z-index: 99;
     left: -100%;
-    top: 72px;
+    top: 4.5em;
     flex-direction: column;
     background-color: #fff;
     width: 100%;
