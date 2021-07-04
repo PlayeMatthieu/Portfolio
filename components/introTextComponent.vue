@@ -1,11 +1,16 @@
 <template>
   <section class="container intro">
-    <h3>
-      By programming application, I try to remove <br />
-      <span>boring and repetitive tasks</span>
-    </h3>
+    <h3 v-html="content"></h3>
   </section>
 </template>
+
+<script>
+export default {
+  props: {
+    content: String,
+  },
+}
+</script>
 
 <style scoped>
 .intro {
