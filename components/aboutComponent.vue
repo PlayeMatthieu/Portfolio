@@ -1,6 +1,6 @@
 <template>
   <section class="about">
-    <a href="#" class="about-content">
+    <a href="/about" class="about-content">
       <h2>
         Pleasure to <br />
         meet you
