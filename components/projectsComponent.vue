@@ -31,12 +31,12 @@ export default {
       projects: [
         {
           name: 'Sockets',
-          img: 'test2.png',
+          img: 'test2.webp',
           alt: 'Sockets project image',
         },
         {
           name: 'Trader',
-          img: 'test.png',
+          img: 'test.webp',
           alt: 'Trader project image',
         },
       ],
