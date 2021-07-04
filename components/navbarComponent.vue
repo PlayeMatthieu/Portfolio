@@ -24,8 +24,7 @@ export default {
     return {
       links: [
         { title: 'Home', href: '/' },
-        { title: 'About', href: '/about' },
-        { title: 'Contact', href: '/contact' },
+        { title: 'About', href: '/about' }
       ],
     }
   },
