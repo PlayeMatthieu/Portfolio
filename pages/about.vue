@@ -3,7 +3,7 @@
     <section class="">
       <div class="about-page-content">
         <h1>Hello</h1>
-        <img src="~/assets/img/About_img.png" alt="Matthieu" />
+        <img src="~/assets/img/About_img.png" alt="Matthieu" loading="lazy" />
       </div>
       <p>
         My name is <b>Matthieu Playe</b>, and I’m a student in software
@@ -49,7 +49,7 @@ img {
   .about-page-content {
     height: 40vh;
     width: 100%;
-      margin-top: 0;
+    margin-top: 0;
   }
   h1 {
     z-index: 10;

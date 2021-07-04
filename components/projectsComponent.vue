@@ -14,7 +14,11 @@
           <h2>{{ project.name }}</h2>
           <h3 class="subTitle">Read more about it</h3>
         </div>
-        <img :src="require(`~/assets/img/${project.img}`)" :alt="project.alt" />
+        <img
+          :src="require(`~/assets/img/${project.img}`)"
+          :alt="project.alt"
+          loading="lazy"
+        />
       </a>
     </div>
   </section>
