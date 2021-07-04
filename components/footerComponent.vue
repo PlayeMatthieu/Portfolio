@@ -12,12 +12,17 @@
       <!-- Right side -->
       <div class="content-links">
         <a href="mailto:info@playe.be" class="title">Email</a>
-        <a href="https://github.com/PlayeMatthieu" target="_blank" class="title"
+        <a
+          href="https://github.com/PlayeMatthieu"
+          target="_blank"
+          rel="noopener"
+          class="title"
           >Github</a
         >
         <a
           href="https://www.linkedin.com/in/matthieu-playe-930470210/"
           target="_blank"
+          rel="noopener"
           class="title"
           >Linkedin</a
         >
