@@ -5,12 +5,12 @@
   .about-content {
     height: 450px;
     margin: 0 auto;
-    padding: 50px 50px;
+    padding: 35px 35px;
     display: flex;
     max-width: 1250px;
     width: auto;
     flex-direction: column;
-    justify-content: space-between;
+    // justify-content: space-between;
     background: $gradiant-blue;
     border-radius: 10px;
     position: relative;
@@ -22,7 +22,8 @@
 
     .subtitle {
       z-index: 5;
-      color: white;
+      margin-top: 15px;
+      color: $grey-text;
     }
 
     .about-image {
@@ -47,9 +48,7 @@
   .about {
     padding: 0 50px;
     .about-content {
-      .subtitle {
-        color: #000;
-      }
+      justify-content: space-between;
       .about-image {
         img {
           max-height: 575px;
@@ -62,9 +61,6 @@
 @media (min-width: 1200px) {
   .about {
     .about-content {
-      .subtitle {
-        color: #000;
-      }
       .about-image {
         img {
           max-height: 700px;

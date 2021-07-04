@@ -28,6 +28,11 @@
       box-shadow: 0px 15px 30px rgba(70, 72, 95, 0.2);
       transition: transform 0.4s, box-shadow 0.4s;
 
+      .subTitle {
+        margin-top: 15px;
+        color: $grey-text;
+      }
+
       &:hover {
         transform: translateY(-10px);
       }
