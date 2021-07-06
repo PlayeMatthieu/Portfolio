@@ -30,6 +30,7 @@
   width: 100%;
   display: flex;
   align-content: center;
+  margin-bottom: 2em;
 }
 h1 {
   z-index: 10;
@@ -50,6 +51,7 @@ img {
     height: 40vh;
     width: 100%;
     margin-top: 0;
+    margin-bottom: 4em;
   }
   h1 {
     z-index: 10;
@@ -64,6 +66,7 @@ img {
   .about-page-content {
     height: 50vh;
     width: 100%;
+    margin-bottom: 5em;
   }
   h1 {
     z-index: 10;
