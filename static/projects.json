@@ -1,0 +1,14 @@
+{
+  "Projects": [
+  {
+    "Project": "Sockets",
+    "Img": "test2.webp",
+    "Alt": "Sockets project Image"
+  },
+  {
+    "Project": "Trader",
+    "Img": "test.webp",
+    "Alt": "Trader project Image"
+  }
+]
+}
