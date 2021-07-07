@@ -4,42 +4,33 @@
       <h2>Projects</h2>
     </div>
     <div class="projects-content">
-      <a
-        v-for="project in projects"
-        :key="project.name"
+      <NuxtLink
+        v-for="project in allProjects.Projects"
+        :to="project.Project"
+        :key="project.Project"
         href="#"
         class="projects-item"
       >
         <div class="project-item-text">
-          <h2>{{ project.name }}</h2>
+          <h2>{{ project.Project }}</h2>
           <h3 class="subTitle">Read more about it</h3>
         </div>
         <img
-          :src="require(`~/assets/img/${project.img}`)"
-          :alt="project.alt"
+          :src="require(`~/assets/img/${project.Img}`)"
+          :alt="project.Alt"
           loading="lazy"
         />
-      </a>
+      </NuxtLink>
     </div>
   </section>
 </template>
 
 <script>
+import projects from '../static/projects.json'
 export default {
   data() {
     return {
-      projects: [
-        {
-          name: 'Sockets',
-          img: 'test2.webp',
-          alt: 'Sockets project image',
-        },
-        {
-          name: 'Trader',
-          img: 'test.webp',
-          alt: 'Trader project image',
-        },
-      ],
+      allProjects: projects,
     }
   },
 }
