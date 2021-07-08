@@ -7,7 +7,7 @@
           <a
             :href="link.href"
             class="nav-link"
-            :class="{'nav-cta': link.cta}"
+            :class="{ 'nav-cta': link.cta }"
             @click="closeNavbar"
             >{{ link.title }}</a
           >
