@@ -39,12 +39,23 @@
   font-size: 1.2em;
   font-weight: 400;
   color: #475569;
-  &:hover {
-    text-decoration: underline;
-    text-decoration-color: $yellow-background;
-    text-decoration-style: wavy;
-    text-decoration-thickness: 2px;
-  }
+  // &:hover {
+  //   text-decoration: underline;
+  //   text-decoration-color: $yellow-background;
+  //   text-decoration-style: wavy;
+  //   text-decoration-thickness: 2px;
+  // }
+}
+
+.nav-cta {
+  background-color: #f5df84;
+  text-decoration: none;
+  padding: 10px 25px;
+  color: #000;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  max-width: 200px;
 }
 
 .nav-logo {

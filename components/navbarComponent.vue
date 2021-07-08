@@ -4,9 +4,13 @@
       <nuxt-link to="/" class="nav-logo">Matthieu Playe</nuxt-link>
       <ul class="nav-menu">
         <li v-for="link in links" :key="link.title" class="nav-item">
-          <a :href="link.href" class="nav-link" @click="closeNavbar">{{
-            link.title
-          }}</a>
+          <a
+            :href="link.href"
+            class="nav-link"
+            :class="{'nav-cta': link.cta}"
+            @click="closeNavbar"
+            >{{ link.title }}</a
+          >
         </li>
       </ul>
       <div class="hamburger" @click="toggleNavbar">
@@ -23,8 +27,9 @@ export default {
   data() {
     return {
       links: [
-        { title: 'Home', href: '/' },
-        { title: 'About', href: '/about' }
+        { title: 'Home', href: '/', cta: false },
+        { title: 'About', href: '/about', cta: false },
+        { title: 'View Work', href: '/work', cta: true },
       ],
     }
   },
