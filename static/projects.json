@@ -1,14 +1,20 @@
 {
   "Projects": [
   {
-    "Project": "Sockets",
-    "Img": "test2.webp",
-    "Alt": "Sockets project Image"
+    "project": "Airfield manager",
+    "img": "test2.webp",
+    "alt": "Sockets project Image",
+    "tech": ["WPF", "C#", "XAML", "Socket", "IpAddress", "Linq"],
+    "description": "test",
+    "github": ""
   },
   {
-    "Project": "Trader",
-    "Img": "test.webp",
-    "Alt": "Trader project Image"
+    "project": "Trader",
+    "img": "test.webp",
+    "alt": "Trader project Image",
+    "tech": ["Api", "C#", ".Net Core", "VueJs", "NuxtJs", "Figma", "SCSS", "SQL", "Microsoft Auth", "JWT", "Bulma"],
+    "description": "",
+    "github": ""
   }
 ]
 }

@@ -6,18 +6,18 @@
     <div class="projects-content">
       <NuxtLink
         v-for="project in allProjects.Projects"
-        :to="project.Project"
-        :key="project.Project"
+        :to="project.project"
+        :key="project.project"
         href="#"
         class="projects-item"
       >
         <div class="project-item-text">
-          <h2>{{ project.Project }}</h2>
+          <h2>{{ project.project }}</h2>
           <h3 class="subTitle">Read more about it</h3>
         </div>
         <img
-          :src="require(`~/assets/img/${project.Img}`)"
-          :alt="project.Alt"
+          :src="require(`~/assets/img/${project.img}`)"
+          :alt="project.alt"
           loading="lazy"
         />
       </NuxtLink>

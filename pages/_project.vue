@@ -1,7 +1,17 @@
 <template>
-  <div>
-    <h1>{{ filteredProject.Project }}</h1>
-    <h2>{{ filteredProject.Img }}</h2>
+  <div class="container">
+    <section>
+      <h1>{{ filteredProject.project }}</h1>
+      <div class="project-image">
+        <img
+          :src="require(`~/assets/img/${filteredProject.img}`)"
+          :alt="filteredProject.alt"
+          loading="lazy"
+        />
+      </div>
+      <p>{{ filteredProject.description }}</p>
+      <span class="tag" v-for="i in filteredProject.tech">{{ i }}</span>
+    </section>
   </div>
 </template>
 
@@ -12,7 +22,7 @@ export default {
     const Allprojects = projects.Projects
 
     const filteredProject = Allprojects.find(
-      (el) => el.Project === params.project
+      (el) => el.project === params.project
     )
     console.log(filteredProject)
     if (filteredProject) {
@@ -20,6 +30,17 @@ export default {
     } else {
       redirect('/')
     }
-  },
+  }
 }
 </script>
+
+<style scoped>
+.project-image {
+  height: 100%;
+  max-height: 600px;
+}
+
+img {
+  max-height: 600px;
+}
+</style>
