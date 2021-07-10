@@ -15,18 +15,16 @@
     padding-top: 2em;
 
     .projects-item {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
       margin-left: 1em;
       margin-right: 1em;
       width: 100%;
-      height: auto;
+      height: 250px;
       padding: 25px;
       border-radius: 6px;
       margin: 2em 0;
       box-shadow: 0px 15px 30px rgba(70, 72, 95, 0.2);
       transition: transform 0.4s, box-shadow 0.4s;
+      background-repeat: no-repeat;
 
       .subTitle {
         margin-top: 15px;
@@ -36,28 +34,6 @@
       &:hover {
         transform: translateY(-10px);
       }
-      &:first-child {
-        background: $gradiant-red;
-      }
-
-      &:nth-child(2) {
-        background: $gradiant-yellow;
-      }
-
-      &:last-child {
-        background: $gradiant-blue;
-      }
-
-      img {
-        display: inline-block;
-        vertical-align: middle;
-        object-fit: contain;
-        width: 100%;
-        height: auto;
-        max-height: 300px;
-        padding: 15px;
-      }
-
       .project-item-text {
         display: flex;
         flex-direction: column;
@@ -65,6 +41,20 @@
       }
     }
   }
+}
+
+.TraderAPi {
+  background-color: #e7f6fe;
+  background-image: url('../../assets/img/Trader_api_hero.png');
+  background-position: bottom right; //Bottem Right
+  background-size: 300px;
+}
+
+.AirfieldManager {
+  background-color: #fee5e8;
+  background-image: url('../../assets/img/Sockets_hero.png');
+  background-position: bottom 10px right 10px;
+  background-size: 200px;
 }
 
 // Tablet
@@ -79,26 +69,26 @@
         align-items: center;
         flex-direction: row;
       }
-
-      img {
-        max-width: 400px;
-        max-height: 500px;
-        padding: 30px;
-      }
-
       .project-item-text {
         height: 100%;
       }
     }
   }
+  .TraderAPi {
+    background-size: 500px;
+  }
+
+  .AirfieldManager {
+    background-size: 300px;
+  }
 }
 
 @media (min-width: 1200px) {
-  .projects .projects-content .projects-item {
-    img {
-      max-width: 500px;
-      max-height: 500px;
-      padding: 30px;
-    }
+  .TraderAPi {
+    background-size: 650px;
+  }
+
+  .AirfieldManager {
+    background-size: 450px;
   }
 }

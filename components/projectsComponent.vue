@@ -10,16 +10,17 @@
         :key="project.project"
         href="#"
         class="projects-item"
+        :class="project.heroImgClass"
       >
         <div class="project-item-text">
           <h2>{{ project.project }}</h2>
           <h3 class="subTitle">Read more about it</h3>
         </div>
-        <img
+        <!-- <img
           :src="require(`~/assets/img/${project.img}`)"
           :alt="project.alt"
           loading="lazy"
-        />
+        /> -->
       </NuxtLink>
     </div>
   </section>

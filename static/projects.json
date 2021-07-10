@@ -2,6 +2,7 @@
   "Projects": [
   {
     "project": "Airfield manager",
+    "heroImgClass": "AirfieldManager",
     "img": "test2.webp",
     "alt": "Sockets project Image",
     "tech": ["WPF", "C#", "XAML", "Socket", "IpAddress", "Linq"],
@@ -10,7 +11,8 @@
   },
   {
     "project": "Trader",
-    "img": "test.webp",
+    "heroImgClass": "TraderAPi",
+    "img": "Project_Trader_hero.png",
     "alt": "Trader project Image",
     "tech": ["Api", "C#", ".Net Core", "VueJs", "NuxtJs", "Figma", "SCSS", "SQL", "Microsoft Auth", "JWT", "Bulma"],
     "description": "",
