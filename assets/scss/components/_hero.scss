@@ -9,7 +9,7 @@
   .hero-content {
     max-width: 1500px;
     margin: 0 auto;
-    padding: 5em;
+    padding: 5em 20px;
   }
 
   .hero-text {
@@ -34,5 +34,11 @@
         font-weight: 700;
       }
     }
+  }
+}
+
+@media (min-width: 768px) {
+  .hero .hero-content {
+    padding: 5em 50px;
   }
 }
