@@ -3,7 +3,11 @@
     <section class="">
       <div class="about-page-content">
         <h1>Hello</h1>
-        <img src="~/assets/img/About_img.webp" alt="Matthieu" loading="lazy" />
+        <img
+          src="~/assets/img/about_me-min.png"
+          alt="Matthieu"
+          loading="lazy"
+        />
       </div>
       <p>
         My name is <b>Matthieu Playe</b>, and I’m a student in software

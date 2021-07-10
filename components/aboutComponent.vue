@@ -8,7 +8,7 @@
       <h3 class="subtitle">About me</h3>
       <div class="about-image">
         <img
-          src="~/assets/img/Matthieu_lach.webp"
+          src="~/assets/img/Matthieu_Bril_lach-min.png"
           alt="Matthieu"
           loading="lazy"
         />
