@@ -53,8 +53,8 @@
 .AirfieldManager {
   background-color: #fee5e8;
   background-image: url('../../assets/img/Sockets_hero.png');
-  background-position: bottom 10px right 10px;
-  background-size: 200px;
+  background-position: bottom -60px right -40px;
+  background-size: 60%;
 }
 
 // Tablet
@@ -79,6 +79,7 @@
   }
 
   .AirfieldManager {
+    background-position: bottom 25px right 25px;
     background-size: 300px;
   }
 }
@@ -89,6 +90,6 @@
   }
 
   .AirfieldManager {
-    background-size: 450px;
+    background-size: 400px;
   }
 }
