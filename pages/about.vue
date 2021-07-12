@@ -15,7 +15,7 @@
         a calculator.
       </p>
       <p>
-        By developing software I help myself and other people by making thier
+        By developing software I help myself and other people by making their
         work easier.
       </p>
       <p>
