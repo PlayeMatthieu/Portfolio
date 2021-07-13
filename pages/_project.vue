@@ -1,16 +1,20 @@
 <template>
-  <div class="container">
+  <div class="container projectPage">
     <section>
       <h1>{{ filteredProject.project }}</h1>
-      <div class="project-image">
-        <img
+      <div class="project-image" :class="filteredProject.heroImgClass"></div>
+      <div class="pageDescriptionContainer">
+        <p class="description" v-html="filteredProject.description">{{}}</p>
+        <div class="tags">
+          <p>Used technologies:</p>
+          <span class="tag" v-for="i in filteredProject.tech">{{ i }}</span>
+        </div>
+      </div>
+      <!-- <img
           :src="require(`~/assets/img/${filteredProject.img}`)"
           :alt="filteredProject.alt"
           loading="lazy"
-        />
-      </div>
-      <p>{{ filteredProject.description }}</p>
-      <span class="tag" v-for="i in filteredProject.tech">{{ i }}</span>
+        /> -->
     </section>
   </div>
 </template>
@@ -30,17 +34,6 @@ export default {
     } else {
       redirect('/')
     }
-  }
+  },
 }
 </script>
-
-<style scoped>
-.project-image {
-  height: 100%;
-  max-height: 600px;
-}
-
-img {
-  max-height: 600px;
-}
-</style>

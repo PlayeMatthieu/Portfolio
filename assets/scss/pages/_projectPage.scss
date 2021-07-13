@@ -1,0 +1,52 @@
+// Mobile
+.projectPage {
+  .pageDescriptionContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+    .description {
+      line-height: 1.5em;
+      border-right: 1px solid #efefef;
+      padding-right: 10px;
+    }
+  }
+  .tags {
+    margin-left: 15px;
+    width: 50%;
+    p {
+      margin-bottom: 15px;
+    }
+  }
+
+  .project-image {
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .TraderAPi {
+    background-position: bottom;
+    background-size: 70%;
+  }
+
+  .AirfieldManager {
+    background-position: left 50px bottom -80px;
+    background-size: 60%;
+  }
+}
+
+// Tablet
+@media (min-width: 768px) {
+  .projectPage {
+  }
+}
+
+// Desktop
+@media (min-width: 1200px) {
+  .projectPage {
+  }
+}
