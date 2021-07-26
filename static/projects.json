@@ -14,8 +14,8 @@
     "heroImgClass": "TraderAPi",
     "img": "Trader_api_hero.png",
     "alt": "Trader project Image",
-    "tech": ["Api", "C#", ".Net Core", "VueJs", "NuxtJs", "Figma", "SCSS", "SQL", "Microsoft Auth", "JWT", "Bulma"],
-    "description": "This project is one of the biggets projects I build so far, and I had a blast programming it.",
+    "tech": ["Api", "C#", ".Net Core", "VueJs", "NuxtJs", "Figma", "SCSS", "SQL", "Microsoft Auth", "JWT", "Bulma css"],
+    "description": "This project is one of the biggets projects I build so far, and I had a blast programming it. It is a Asp.net Core Api for the backend and a Vuejs/Nuxtjs frontend. </br> The main purpose of the application is to have a easy to use overview for customers, projects and companies.",
     "github": ""
   }
 ]

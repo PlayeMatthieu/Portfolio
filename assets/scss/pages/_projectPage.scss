@@ -1,7 +1,9 @@
 // Mobile
 .projectPage {
+  margin-top: 5em;
   .pageDescriptionContainer {
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
     margin-top: 2em;
@@ -14,15 +16,19 @@
     }
   }
   .tags {
-    margin-left: 15px;
-    width: 50%;
+    margin-top: 16px;
+    .tag {
+      line-height: 24px;
+    }
+    // margin-left: 15px;
+    // width: 50%;
     p {
       margin-bottom: 15px;
     }
   }
 
   .project-image {
-    height: 450px;
+    height: 150px;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,11 +36,11 @@
 
   .TraderAPi {
     background-position: bottom;
-    background-size: 70%;
+    background-size: 90%;
   }
 
   .AirfieldManager {
-    background-position: left 50px bottom -80px;
+    background-position: left 50px bottom -60px;
     background-size: 60%;
   }
 }
@@ -42,11 +48,43 @@
 // Tablet
 @media (min-width: 768px) {
   .projectPage {
+    .project-image {
+      height: 350px;
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .TraderAPi {
+      background-position: bottom;
+      background-size: 85%;
+    }
+
+    .AirfieldManager {
+      background-position: left 50px bottom -120px;
+      background-size: 60%;
+    }
   }
 }
 
 // Desktop
 @media (min-width: 1200px) {
   .projectPage {
+    .project-image {
+      height: 400px;
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .TraderAPi {
+      background-position: bottom;
+      background-size: 75%;
+    }
+
+    .AirfieldManager {
+      background-position: left 50px bottom -150px;
+      background-size: 60%;
+    }
   }
 }

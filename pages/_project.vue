@@ -28,7 +28,6 @@ export default {
     const filteredProject = Allprojects.find(
       (el) => el.project === params.project
     )
-    console.log(filteredProject)
     if (filteredProject) {
       return { filteredProject }
     } else {
