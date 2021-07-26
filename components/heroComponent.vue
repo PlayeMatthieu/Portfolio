@@ -1,5 +1,5 @@
 <template>
-  <section class="hero">
+  <div class="hero">
     <div class="hero-content">
       <div class="hero-text">
         <p class="hero-uptitle">Matthieu Playe</p>
@@ -10,5 +10,5 @@
         </h3>
       </div>
     </div>
-  </section>
+  </div>
 </template>

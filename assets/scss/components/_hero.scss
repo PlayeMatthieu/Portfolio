@@ -4,11 +4,11 @@
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
-  // height: 65vh;
 
   .hero-content {
     max-width: 1500px;
     margin: 0 auto;
+    margin-top: 4em;
     padding: 5em 20px;
   }
 
@@ -38,7 +38,10 @@
 }
 
 @media (min-width: 768px) {
-  .hero .hero-content {
-    padding: 5em 50px;
+  .hero {
+    height: 65vh;
+    .hero-content {
+      padding: 5em 50px;
+    }
   }
 }
